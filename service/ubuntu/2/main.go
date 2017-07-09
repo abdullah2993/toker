@@ -21,7 +21,7 @@ type ServiceDesc struct {
 	Hostname   string
 }
 
-var addr = flag.String("http", "localhost:8080", "Address to listen on")
+var addr = flag.String("http", "localhost:65000", "Address to listen on")
 var gens = flag.Int("gen", 1, "Number of generators")
 var queue = flag.Int("queue", 1, "Number of elemens in queue")
 
